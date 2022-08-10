@@ -1,0 +1,14 @@
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.exe
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.deps.json
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.runtimeconfig.json
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.runtimeconfig.dev.json
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.dll
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\bin\Debug\netcoreapp3.1\Aula03-Operadores.pdb
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.csproj.AssemblyReference.cache
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.AssemblyInfoInputs.cache
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.AssemblyInfo.cs
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.dll
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.pdb
+C:\Users\simon\Documents\SIMONE\00-Documentos\Cursos\Fiap C#\AulasPraticas\Aula03-Operadores\Aula03-Operadores\obj\Debug\netcoreapp3.1\Aula03-Operadores.genruntimeconfig.cache
