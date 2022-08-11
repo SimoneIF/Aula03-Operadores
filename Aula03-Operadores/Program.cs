@@ -185,54 +185,71 @@ namespace Aula03_Operadores
             //        break;
             //   }
 
-            //Exercicio 07
+            //Exercicio 07 - saldos
 
-            double valor, saldo = 100;
-            int codigo;
+            //double valor, saldo = 100;
+            //int codigo;
 
-            Console.WriteLine("Menu: \nInforme o codigo da transacao:\n1-Deposito.\n2-Saque.\n3-Ver Saldo.");
-            codigo = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Menu: \nInforme o codigo da transacao:\n1-Deposito.\n2-Saque.\n3-Ver Saldo.");
+            //codigo = Convert.ToInt32(Console.ReadLine());
 
-            switch (codigo)
-            {
-                case 1:  //deposito
-                    {
-                        Console.WriteLine("Digite o valor do deposito");
-                        valor = Convert.ToDouble(Console.ReadLine());
-                        saldo += valor;
-                        Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
-                    } 
-                    break;
-                case 2: //Saque
-                    {
-                        Console.WriteLine("Digite o valor a fazer o saque");
-                        valor = Convert.ToDouble(Console.ReadLine());
-                        if (saldo >= valor)
-                            saldo -= valor;
-                        else
-                            Console.WriteLine("Saldo insuficiente para saque");
-                        Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
-                    }
-                    break;
-                case 3: //ver saldo
-                    {
-                        Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
-                    }
-                    break ;
-                default:
-                    Console.WriteLine("Opção invalida");
-                    break;
+            //switch (codigo)
+            //{
+            //    case 1: //deposito
+            //        {
+            //            Console.WriteLine("Digite o valor do deposito");
+            //            valor = Convert.ToDouble(Console.ReadLine());
+            //            saldo += valor;
+            //            Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
+            //        } 
+            //        break;
+            //    case 2: //Saque
+            //        {
+            //            Console.WriteLine("Digite o valor a fazer o saque");
+            //            valor = Convert.ToDouble(Console.ReadLine());
+            //            if (saldo >= valor)
+            //                saldo -= valor;
+            //            else
+            //                Console.WriteLine("Saldo insuficiente para saque");
+            //            Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
+            //        }
+            //        break;
+            //    case 3: //ver saldo
+            //        {
+            //            Console.WriteLine("Saldo atualizado: R${0}", saldo.ToString("0.00"));
+            //        }
+            //        break ;
+            //    default:
+            //        Console.WriteLine("Opção invalida");
+            //        break;
 
-            }
+            //}
 
+            //Exercicio 08 - Aprovado ou nao aprovado
 
+            double n1, n2, media, frequencia;
+            double qtdeAula, qtdeAssistidas;
 
+            Console.WriteLine("Informe a nota 1");
+            n1 = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("Informa a nota 2:");
+            n2 = Convert.ToDouble(Console.ReadLine());
 
+            media = (n1 + n2) / 2;
 
+            Console.WriteLine("Informe a quantidade de aulas dadas");
+            qtdeAula = Convert.ToDouble((Console.ReadLine()));
 
+            Console.WriteLine("Informe a quantidade de aulas assistidas");
+            qtdeAssistidas = Convert.ToDouble((Console.ReadLine()));
 
+            frequencia = (qtdeAssistidas/qtdeAula) * 100;
 
+            if ((media > 7 || media == 7) && frequencia >= 75) // ! && || -precedencia dos operadores
+                Console.WriteLine("Aluno Aprovado " + media + " frequencia: " + frequencia + "%");
+            else
+                Console.WriteLine("Aluno Reprovado");
         }
     }
 }
